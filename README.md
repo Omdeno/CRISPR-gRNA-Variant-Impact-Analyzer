@@ -8,22 +8,22 @@ Created for article "Optimization of functional genetics tools for a model tetra
 
 ## Features
 
-### 1. Statistical Analysis & Visualization (`grna_statistics_visualization.R`)
-
-- **Global gRNA Classification**: Distribution analysis across functional categories
-- **PAM Status Analysis**: Canonical, non-canonical, and disrupted SpCas9 PAM sequences
-- **Seed Region Integrity**: Assessment of critical targeting regions
-- **Homoeolog Analysis**: Gene pair targeting efficiency evaluation
-- **Threshold Optimization**: Score-based filtering impact on gRNA retention (aggregated CFD, DeepHF and DeepSpCas9)
-- **Publication-Ready Figures**: High-resolution plots using ggpubr
-
-### 2. Variant Impact Classification (`grna_variant_impact_classifier.R`)
+### 1. Variant Impact Classification (`grna_variant_impact_classifier.R`)
 
 - **Multi-Variant Support**: SNPs, MNPs, indels, and structural variants
 - **Parallel Processing**: Efficient batch processing for large datasets
 - **Comprehensive Logging**: Detailed process tracking and error reporting
 - **Flexible Input**: VCF format support (DeepVariant, pbsv, etc.), gRNA library as table in TSV format (based on flattened output of crisprDesign (https://github.com/crisprVerse/crisprDesign))
 - **Detailed Classification**: Functional, reduced efficiency, or critical failure
+
+### 2. Statistical Analysis & Visualization (`grna_statistics_visualization.R`)
+
+- **Global gRNA Classification**: Distribution analysis across functional categories based on Variant Impact Classification output
+- **PAM Status Analysis**: Canonical, non-canonical, and disrupted SpCas9 PAM sequences
+- **Seed Region Integrity**: Assessment of critical targeting regions
+- **Homoeolog Analysis**: Gene pair targeting efficiency evaluation
+- **Threshold Optimization**: Score-based filtering impact on gRNA retention (aggregated CFD, DeepHF and DeepSpCas9)
+- **Publication-Ready Figures**: High-resolution plots using ggpubr
 
 ## Installation
 
