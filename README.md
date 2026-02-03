@@ -1,4 +1,5 @@
 # CRISPR gRNA Variant Impact Analyzer
+[![DOI](https://zenodo.org/badge/1076774415.svg)](https://doi.org/10.5281/zenodo.18469853)
 
 ## Overview
 
