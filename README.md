@@ -7,6 +7,8 @@ This repository contains R scripts for comprehensive analysis and visualization 
 
 Created for article "Optimization of functional genetics tools for a model tetraploid Capsella bursa-pastoris, with focus on homoeolog-aware gene editing"
 
+[![DOI:10.1007/s11248-026-00482-z](http://img.shields.io/badge/DOI-10.1007/s11248--026--00482--z-228b22.svg)](https://doi.org/10.1007/s11248-026-00482-z)
+
 ## Features
 
 ### 1. Variant Impact Classification (`grna_variant_impact_classifier.R`)
